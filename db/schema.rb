@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_10_172333) do
+ActiveRecord::Schema.define(version: 2018_10_10_201537) do
 
   create_table "purchases", force: :cascade do |t|
     t.string "email"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2018_10_10_172333) do
     t.integer "product_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "uuid"
   end
 
 end
