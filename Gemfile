@@ -39,6 +39,8 @@ gem 'stripe', '~> 3.28'
 gem 'glyphicons', '~> 1.0', '>= 1.0.2'
 gem "figaro"
 gem 'letter_opener', group: :development
+gem 'devise', '~> 4.5'
+gem 'activeadmin'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
